@@ -15,3 +15,7 @@ Each image is saved as a 56* 56 pixel .png image. The name of the saved file inc
 
 Name = 'Dimensions(1)_Dimensions(2)_Dimensions(3)_Distort(1)_Distort(2)_Colour(1)_Colour(2)_Colour(3)_Distort(3)_Distort(4)_Distort(5)_Distort(6)_Distort(7)_Distort(8).png'
 Any negative values have their decimal point replaced with a '-'
+
+Example Digit:
+
+![Digit](Pictures/Digit.png)

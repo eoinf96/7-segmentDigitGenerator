@@ -1,2 +1,2 @@
 MatLab Generator 
-![GUI](Images/GUI.jpg)
+![GUI](Pictures/GUI.jpg)

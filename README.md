@@ -21,14 +21,15 @@ Example Digit:
 ![Digit](Pictures/Digit.png)
 
 
-############### Explanation and Justification of Parameters ##################
+# Explanation and Justification of Parameters #
 
-Dimensions
+
+## Dimensions
 
 
 
 
 The generated dataset is modelled to be very similar to the MNIST database for handwritten text recognition, the images however are twice as long and wide (56x56 rather than 28x28) so that more detail can be included when there are small step changes in dimensions. The parameters chosen to vary the dimensions of the digit were: digit width (the horizontal distance between the centres of the vertical segments), segment width (width of each segment) and segment gap (gap between each segment), the definitions for these are shown in the above image.
 
-When classifying real digits the digit can be reshaped as any height within the 56x56 frame, it makes sense therefore to force the digit to be a set height so that the digitâ€™s aspect ratio (digit height/digit width) is affected only by varying the digit width. Digit height (vertical distance between the top and bottom horizontal segments) is kept constant at 52 pixels. The four pixel gap at the top of the scene allows for detectors to easily visualise horizontal segments.
+When classifying real digits the digit can be reshaped as any height within the 56x56 frame, it makes sense therefore to force the digit to be a set height so that the digit’s aspect ratio (digit height/digit width) is affected only by varying the digit width. Digit height (vertical distance between the top and bottom horizontal segments) is kept constant at 52 pixels. The four pixel gap at the top of the scene allows for detectors to easily visualise horizontal segments.
 

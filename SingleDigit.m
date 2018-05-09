@@ -26,13 +26,13 @@ Colour.Invert = 0;
 %% The Cell Distort{} Defines the parameters that try to distort the Digit.
 
 %Gaussian Blur
-Distort.Gauss_Size =1;
+Distort.Gauss_Size =3;
 %Min = 1; Max = 3
 Distort.Gauss_SD = 1;
 %Min 1, Max = 3
 
 %Pixelate
-Distort.PixelationSize = 2;
+Distort.PixelationSize = 4;
 %Min = 1; Max = 3
 
 %Rotation angle

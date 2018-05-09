@@ -66,7 +66,7 @@ Pixellation can occur either when the LCD screen or the camera taking the pictur
 
 Gaussian Noise (also known as Electronic noise) arises naturally in digital images by sources electronic circuit noise. It is therefore should be included noise term in the automatic digit generation. Gaussian Noise can be modelled as a statistical noise with a Gaussian PDF following equation
 
-![Digit](Pictures/NoiseEquation.png)
+![Digit](Pictures/NoiseEquation.jpg)
 
 where mu is the mean, sigma is the standard deviation and i is the pixel intensity. mu is kept at 0 so as to have a bias towards black pixels and thus maintain a high contrast between digit and background. 
 

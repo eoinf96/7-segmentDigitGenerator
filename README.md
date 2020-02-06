@@ -1,5 +1,17 @@
 # MatLab Code and GUI for generating dataset of 7-segment digits.
 
+## How to run the code
+
+There are 3 ways to run the 7-segment digit generator:
+
+* Use script SingleDigit.m enter the parameters for the digit and run to view one digit
+* Use script Run.m, enter the parameter variations and save location and run. This will save a .png for all images produced in the save location folder.
+* Use the GUI. This is probably the most intuitive method where you can both view digit variations and save a dataset. Go in to folder /GUI and run GUI.m.
+
+	
+
+## Overview
+
 The GUI (Shown below) allows the user to view the effects of variations on specific parameters. The user can then enter Max, Min and Step values to generate a dataset.
 ![GUI](Pictures/GUI.jpg)
 
